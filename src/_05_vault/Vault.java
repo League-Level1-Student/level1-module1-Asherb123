@@ -2,11 +2,19 @@ package _05_vault;
 
 public class Vault {
 
-int SecretCode;	
-boolean tryCode(int SecretCode) {
-	if (this.SecretCode==SecretCode) {
-		return false; 
+int secretCode=2;	
+boolean tryCode(int secretCode) {
+	if (this.secretCode==secretCode) {
+		return true; 
 		}
-}
+	else {
+		return false;
+	}
+
+
+
+
+
+} 
 }
 
